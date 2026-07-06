@@ -1,5 +1,7 @@
 # Meteociel Forecast for Home Assistant
 
+[![Open your Home Assistant instance and open this repository inside HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=oblarquez&repository=ha-meteociel&category=integration)
+
 > **Unofficial Home Assistant integration for Meteociel weather forecasts.**
 
 Retrieve weather forecasts directly from **Meteociel** and expose them as a native Home Assistant `weather` entity.
@@ -86,6 +88,32 @@ Configure:
 type: custom:weather-forecast-card
 entity: weather.meteociel_carpentras_gfs
 ```
+
+---
+
+## Installation with HACS (Custom Repository)
+
+1. Open **HACS**.
+2. Go to **Integrations**.
+3. Click the **⋮** menu (top right).
+4. Select **Custom repositories**.
+5. Add:
+
+```
+https://github.com/oblarquez/ha-meteociel
+```
+
+Category:
+
+```
+Integration
+```
+
+6. Click **Add**.
+7. Search for **Meteociel Forecast**.
+8. Click **Download**.
+9. Restart Home Assistant.
+10. Go to **Settings → Devices & Services → Add Integration**.
 
 ---
 
