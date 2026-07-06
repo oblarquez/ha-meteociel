@@ -1,0 +1,12 @@
+{
+  "title": "MétéoCiel",
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "city_id": "ID de la ville MétéoCiel"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "domain": "meteociel",
+  "name": "Meteociel",
+  "version": "0.1.0",
+  "documentation": "",
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
